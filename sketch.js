@@ -30,7 +30,7 @@ function setup(){
     createCanvas(windowWidth,windowHeight);
     mode=0;
     score=0;
-    bgMusic.loop();
+    //bgMusic.loop();
     hunterScore=0;
   protector= createSprite(width/2-150,height-200, 50,50);
   protector.addAnimation("protectorAnimation",protectorImg);
@@ -106,10 +106,10 @@ if(mode==1){
 
 
 textFont('Georgia');
-textSize(23);
+textSize(17);
     fill("white");
-    text("Distance Covered: " + score,width/2+300,height/2-200);
-    text("Hunters killed: "+ hunterScore,width/2+300,height/2-160);
+    text("Distance Covered: " + score,width/2+200,height/2-200);
+    text("Hunters killed: "+ hunterScore,width/2+200,height/2-160);
    drawSprites();
 }
 
