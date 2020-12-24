@@ -30,7 +30,7 @@ function setup(){
     createCanvas(windowWidth,windowHeight);
     mode=0;
     score=0;
-    //bgMusic.loop();
+    bgMusic.loop();
     hunterScore=0;
   protector= createSprite(width/2-150,height-200, 50,50);
   protector.addAnimation("protectorAnimation",protectorImg);
